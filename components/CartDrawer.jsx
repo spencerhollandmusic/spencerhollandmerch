@@ -1,4 +1,4 @@
-ï»¿"use client";
+"use client";
 
 import { useState, useMemo } from "react";
 import { useCart } from "./CartContext";
@@ -70,7 +70,7 @@ export function CartDrawer() {
                 <div className="flex-1">
                   <div className="font-medium">{it.title}</div>
                   <div className="text-sm text-gray-600">
-                    {it.size ? `Size ${it.size}` : ""}{it.size && it.color ? " â€¢ " : ""}{it.color ? "Color" : ""}
+                    {it.size ? `Size ${it.size}` : ""}{it.size && it.color ? " • " : ""}{it.color ? "Color" : ""}
                   </div>
                   <div className="mt-2 flex items-center gap-2">
                     <button className="px-2 border rounded" onClick={() => updateQty(it.key, Math.max(1, it.qty - 1))}>-</button>
@@ -95,7 +95,7 @@ export function CartDrawer() {
             disabled={loading || items.length === 0}
             className="w-full px-4 py-3 rounded-2xl bg-[var(--color-accent)] text-gray-900 hover:opacity-90 disabled:opacity-60"
           >
-            {loading ? "Processingâ€¦" : "Checkout"}
+            {loading ? "Processing…" : "Checkout"}
           </button>
         </div>
       </aside>

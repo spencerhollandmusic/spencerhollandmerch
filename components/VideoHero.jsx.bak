@@ -30,9 +30,9 @@
            style={{ background: "radial-gradient(120% 70% at 50% 30%, rgba(0,0,0,.15), transparent 60%)" }} />
 
       {/* content */}
-      <div className={`relative mx-auto max-w-6xl px-4 ${fullscreen ? "min-h-[100svh] flex items-center" : "py-24"}`}>
+      <div className={`relative mx-auto max-w-6xl px-4 md:px-2 ${fullscreen ? "min-h-[100svh] flex items-center" : "py-24"}`}>
         {/* Right-aligned on md+, centered on mobile */}
-        <div className="w-full md:max-w-[42rem] md:ml-auto md:text-right">
+        <div className="w-full md:max-w-[34rem] lg:max-w-[32rem] md:ml-auto md:text-right">
           {data?.headline && (
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white drop-shadow">
               {data.headline}
@@ -60,3 +60,4 @@
     </section>
   );
 }
+

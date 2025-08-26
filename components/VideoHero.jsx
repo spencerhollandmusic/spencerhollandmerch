@@ -1,4 +1,4 @@
-﻿export function VideoHero({ data }) {
+export function VideoHero({ data }) {
   const overlay = typeof data?.overlay === "number" ? data.overlay : 70;
   const fullscreen = data?.fullscreen === true;
   const hasVideo = !!data?.video;

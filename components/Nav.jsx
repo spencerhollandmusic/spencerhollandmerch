@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import { CartButton } from "./CartButton";
 
 /** Fixed cart in the top-right. Safe-area aware for mobile notches. */

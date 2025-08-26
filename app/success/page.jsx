@@ -1,4 +1,4 @@
-﻿export default function Page() {
+export default function Page() {
   return (
     <main className="mx-auto max-w-2xl px-4 py-24 text-center">
       <h1 className="text-3xl font-semibold">Thank you!</h1>

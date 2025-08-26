@@ -1,4 +1,4 @@
-﻿import { headers } from "next/headers";
+import { headers } from "next/headers";
 import { getTenantFromHost, getTenantConfig } from "../lib/tenant";
 import { Nav } from "../components/Nav";
 import { HeroImage } from "../components/HeroImage";

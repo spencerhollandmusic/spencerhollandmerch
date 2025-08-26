@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useRef, useState } from "react";
 import { useCart } from "./CartContext";
@@ -74,7 +74,7 @@ export default function ProductModal({ product, onClose }) {
             className="absolute right-4 top-4 inline-flex h-9 w-9 items-center justify-center rounded-full border border-gray-300 text-gray-700 hover:bg-gray-100"
             aria-label="Close"
           >
-            ✕
+            ?
           </button>
 
           <h3 className="text-xl font-semibold text-gray-900">

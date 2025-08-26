@@ -1,9 +1,9 @@
 ﻿"use client";
 
 import { useState } from "react";
-import { ProductModal } from "./ProductModal";
+import ProductModal from "./ProductModal"; // <-- default export
 
-export function Merch({ data }) {
+function MerchComponent({ data }) {
   if (!data) return null;
   const items = data.items || [];
   const [active, setActive] = useState(null);
@@ -56,10 +56,14 @@ export function Merch({ data }) {
                   </span>
                 )}
 
-                {/* price chip (tan accent) */}
+                {/* price chip */}
                 {p.price != null && (
                   <span className="absolute right-3 bottom-3 text-sm px-3 py-1 rounded-full bg-[var(--color-accent)] text-gray-900 shadow">
-                    ${Number(p.price).toFixed(2)}
+                    ${
+                      typeof p.price === "number"
+                        ? p.price.toFixed(2)
+                        : String(p.price).replace(/[^0-9.]/g, "")
+                    }
                   </span>
                 )}
               </div>
@@ -69,7 +73,7 @@ export function Merch({ data }) {
                 <h3 className="font-semibold text-white">{p.title}</h3>
                 {p.desc && <p className="text-sm text-white/70 mt-1">{p.desc}</p>}
 
-                {/* color dots (if any) */}
+                {/* color dots */}
                 {Array.isArray(p.colors) && p.colors.length > 0 && (
                   <div className="mt-3 flex flex-wrap gap-2">
                     {p.colors.map((c, idx) => (
@@ -120,3 +124,6 @@ export function Merch({ data }) {
     </section>
   );
 }
+
+export default MerchComponent;
+export { MerchComponent as Merch };

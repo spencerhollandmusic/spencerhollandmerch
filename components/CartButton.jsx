@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import { useCart } from "./CartContext";
 
 export function CartButton() {
@@ -17,7 +17,7 @@ export function CartButton() {
         className="w-5 h-5"
         onError={(e) => { e.currentTarget.style.display = "none"; e.currentTarget.nextElementSibling.style.display = "block"; }}
       />
-      <span className="hidden text-xl leading-none select-none">🛒</span>
+      <span className="hidden text-xl leading-none select-none">??</span>
 
       {count > 0 && (
         <span className="absolute -top-1 -right-1 min-w-[20px] h-5 px-1 rounded-full bg-[var(--color-accent)] text-gray-900 text-xs flex items-center justify-center">

@@ -1,10 +1,10 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 import ProductModal from "./ProductModal"; // default export
 
 function MerchComponent({ data }) {
-  // ✅ Call hooks unconditionally at the top
+  // ? Call hooks unconditionally at the top
   const [active, setActive] = useState(null);
   const items = data?.items ?? [];
 
