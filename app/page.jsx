@@ -1,7 +1,7 @@
 ﻿import { headers } from "next/headers";
 import { getTenantFromHost, getTenantConfig } from "../lib/tenant";
 import { Nav } from "../components/Nav";
-import { VideoHero } from "../components/VideoHero";
+import { HeroImage } from "../components/HeroImage";
 import { Services } from "../components/Services";
 import { CTA } from "../components/CTA";
 import { Merch } from "../components/Merch";
@@ -14,10 +14,11 @@ export default async function Page({ searchParams }) {
   return (
     <main>
       <Nav />             {/* minimal header with cart icon only */}
-      <VideoHero data={cfg.hero} />
+      <HeroImage data={cfg.HeroImage} />
       {Array.isArray(cfg.services) && cfg.services.length > 0 && (<Services items={cfg.services} />)}
       <CTA data={cfg.cta} />
       <Merch data={cfg.merch} />
     </main>
   );
 }
+
