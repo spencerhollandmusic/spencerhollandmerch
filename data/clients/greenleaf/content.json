@@ -46,7 +46,8 @@
                                     }
                                 ],
                  "fullscreen":  true,
-                 "overlay":  80
+                 "overlay":  80,
+                 "image":  "/artist.png"
              },
     "services":  [
                      {
