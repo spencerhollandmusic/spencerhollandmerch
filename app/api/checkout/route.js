@@ -1,4 +1,4 @@
-import Stripe from "stripe";
+ï»¿import Stripe from "stripe";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
@@ -37,7 +37,7 @@ export async function POST(req) {
           shipping_rate_data: {
             type: "fixed_amount",
             fixed_amount: { amount: 500, currency: "usd" },
-            display_name: "Standard (3–5 days)",
+            display_name: "Standard (3â€“5 days)",
             delivery_estimate: {
               minimum: { unit: "business_day", value: 3 },
               maximum: { unit: "business_day", value: 5 }
@@ -48,7 +48,7 @@ export async function POST(req) {
           shipping_rate_data: {
             type: "fixed_amount",
             fixed_amount: { amount: 1500, currency: "usd" },
-            display_name: "Express (1–2 days)"
+            display_name: "Express (1â€“2 days)"
           }
         }
       ],
@@ -65,3 +65,4 @@ export async function POST(req) {
     return new Response(JSON.stringify({ error: "checkout_error" }), { status: 500 });
   }
 }
+

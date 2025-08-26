@@ -1,4 +1,4 @@
-export function Services({ items }) {
+﻿export function Services({ items }) {
   return (
     <section id="services" className="py-16 bg-[var(--color-muted)]">
       <div className="mx-auto max-w-6xl px-4">
@@ -16,3 +16,4 @@ export function Services({ items }) {
     </section>
   );
 }
+

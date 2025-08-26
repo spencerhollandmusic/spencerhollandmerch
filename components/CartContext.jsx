@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 
@@ -87,3 +87,4 @@ export function useCart() {
   if (!v) throw new Error("useCart must be used within CartProvider");
   return v;
 }
+

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 
 export function VideoHero() {
   return (
@@ -18,3 +18,4 @@ export function VideoHero() {
     </section>
   );
 }
+

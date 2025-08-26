@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import ProductModal from "./ProductModal"; // default export
@@ -129,3 +129,4 @@ function MerchComponent({ data }) {
 
 export default MerchComponent;
 export { MerchComponent as Merch };
+

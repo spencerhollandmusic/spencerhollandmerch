@@ -1,4 +1,4 @@
-export function Hero({ data }) {
+﻿export function Hero({ data }) {
   const bg = data.image;
   const overlay = typeof data.overlay === "number" ? data.overlay : 60;
   const fullscreen = data.fullscreen === true;
@@ -65,4 +65,5 @@ export function Hero({ data }) {
     </section>
   );
 }
+
 

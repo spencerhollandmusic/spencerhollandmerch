@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 export default function HeroImage({ data = {} }) {
   const overlay = typeof data.overlay === "number" ? data.overlay : 70;
@@ -62,3 +62,4 @@ export default function HeroImage({ data = {} }) {
     </section>
   );
 }
+

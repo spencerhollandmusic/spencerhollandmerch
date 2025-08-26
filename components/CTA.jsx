@@ -1,4 +1,4 @@
-export function CTA({ data }) {
+﻿export function CTA({ data }) {
   if (!data) return null;
   return (
     <section className="py-16">
@@ -14,3 +14,4 @@ export function CTA({ data }) {
     </section>
   );
 }
+

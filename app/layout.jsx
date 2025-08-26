@@ -1,4 +1,4 @@
-import "./globals.css";
+﻿import "./globals.css";
 import { headers } from "next/headers";
 import { getTenantFromHost, getTenantConfig } from "../lib/tenant";
 import { Footer } from "../components/Footer";
@@ -35,4 +35,5 @@ export default async function RootLayout({ children }) {
     </html>
   );
 }
+
 

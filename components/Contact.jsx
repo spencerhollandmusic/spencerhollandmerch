@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { useState } from "react";
 export function Contact({ data }) {
   const [status, setStatus] = useState(null);
@@ -40,3 +40,4 @@ export function Contact({ data }) {
     </section>
   );
 }
+

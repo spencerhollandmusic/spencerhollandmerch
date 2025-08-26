@@ -1,4 +1,4 @@
-module.exports = {
+﻿module.exports = {
   content: ["./app/**/*.{js,jsx}","./components/**/*.{js,jsx}","./data/**/*.{json,md}"],
   theme: {
     extend: {

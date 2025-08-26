@@ -1,5 +1,6 @@
-@tailwind base;
+﻿@tailwind base;
 @tailwind components;
 @tailwind utilities;
 :root { --color-brand:#2563eb; --color-accent:#14b8a6; --color-muted:#f3f4f6; }
 html,body{height:100%} body{font-feature-settings:"cv02","cv03","cv04","cv11"} a{transition:color .2s ease}
+

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useCart } from "./CartContext";
 
 export function CartButton() {
@@ -27,3 +27,4 @@ export function CartButton() {
     </button>
   );
 }
+
