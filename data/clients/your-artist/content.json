@@ -22,7 +22,7 @@
     "hero":  {
                  "headline":  "Spencer Holland",
                  "sub":  "New single out now — listen everywhere.",
-                 "image":  "/artist.png",
+                 "image":  "/artist.jpg",
                  "overlay":  80,
                  "fullscreen":  true,
                  "parallax":  true,
@@ -128,3 +128,4 @@
                                        }
                      }
 }
+
