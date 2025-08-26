@@ -1,0 +1,75 @@
+﻿{
+    "brand":  {
+                  "name":  "Holland Entertainment",
+                  "logo":  "/logos/sunrise.svg",
+                  "legal":  "Holland Entertainment"
+              },
+    "theme":  {
+                  "primary":  "#f59e0b",
+                  "accent":  "#6366f1",
+                  "muted":  "#fff7ed"
+              },
+    "nav":  [
+                {
+                    "label":  "Home",
+                    "href":  "#home"
+                },
+                {
+                    "label":  "Services",
+                    "href":  "#services"
+                },
+                {
+                    "label":  "Contact",
+                    "href":  "#contact"
+                }
+            ],
+    "hero":  {
+                 "headline":  "Gentle Dentistry for the Whole Family",
+                 "sub":  "Same-day crowns, clear aligners, and sedation options.",
+                 "ctaLabel":  "Book appointment",
+                 "highlights":  [
+                                    {
+                                        "title":  "Insurance friendly",
+                                        "desc":  "Most plans accepted."
+                                    },
+                                    {
+                                        "title":  "Kid-approved",
+                                        "desc":  "Play area \u0026 rewards."
+                                    },
+                                    {
+                                        "title":  "Modern tech",
+                                        "desc":  "3D scanning \u0026 imaging."
+                                    },
+                                    {
+                                        "title":  "Open Saturdays",
+                                        "desc":  "Convenient hours."
+                                    }
+                                ]
+             },
+    "services":  [
+                     {
+                         "title":  "Cleanings \u0026 Exams",
+                         "desc":  "Preventive care to keep smiles bright.",
+                         "price":  "$99 new patient"
+                     },
+                     {
+                         "title":  "Invisalign",
+                         "desc":  "Clear aligner therapy for adults \u0026 teens."
+                     },
+                     {
+                         "title":  "Implants",
+                         "desc":  "Permanent replacement for missing teeth."
+                     }
+                 ],
+    "cta":  {
+                "title":  "Smile brighter today",
+                "desc":  "Flexible payment plans available.",
+                "ctaLabel":  "Request a visit"
+            },
+    "contact":  {
+                    "phone":  "(555) 201-2222",
+                    "email":  "care@sunrisedental.example",
+                    "address":  "500 Sunset Blvd, Hometown",
+                    "formspreeId":  ""
+                }
+}

@@ -1,0 +1,27 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+  <rect width="1600" height="1200" fill="#0D1920"/>
+  <rect x="150" y="250" width="1300" height="700" rx="28" fill="#2B2F33"/>
+  <!-- dock wood -->
+  <g transform="translate(200,300)">
+    <rect width="1200" height="80" fill="#DABF9F" opacity=".95"/>
+    <rect y="100" width="1200" height="80" fill="#DABF9F" opacity=".9"/>
+    <rect y="200" width="1200" height="80" fill="#DABF9F" opacity=".85"/>
+    <rect y="300" width="1200" height="80" fill="#DABF9F" opacity=".8"/>
+  </g>
+  <!-- stickers -->
+  <g font-family="Segoe UI, Inter, system-ui">
+    <rect x="300" y="420" rx="18" ry="18" width="300" height="160" fill="#0E4D64" stroke="white" stroke-width="4"/>
+    
+
+    <circle cx="830" cy="500" r="90" fill="#DABF9F" stroke="white" stroke-width="6"/>
+    
+
+    <rect x="990" y="430" rx="24" ry="24" width="280" height="140" fill="#0E835F" stroke="white" stroke-width="6"/>
+    
+
+    <path d="M460,680 h240 a24,24 0 0 1 24,24 v72 a24,24 0 0 1 -24,24 h-240 a24,24 0 0 1 -24,-24 v-72 a24,24 0 0 1 24,-24z"
+          fill="#111827" stroke="white" stroke-width="6"/>
+    
+  </g>
+</svg>
+

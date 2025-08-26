@@ -1,0 +1,22 @@
+﻿export function AnnouncementBar({ data }) {
+  if (!data?.message) return null;
+  return (
+    <div className="sticky top-0 z-40 bg-[var(--color-brand)] text-white">
+      <div className="mx-auto max-w-6xl px-4 h-10 flex items-center justify-between gap-4">
+        <span className="text-sm tracking-wide uppercase">{data.message}</span>
+        <div className="flex items-center gap-2">
+          {data.primary?.href && (
+            <a href={data.primary.href} className="text-sm px-3 py-1 rounded-full bg-white text-gray-900 hover:opacity-90">
+              {data.primary.label || "Learn more"}
+            </a>
+          )}
+          {data.secondary?.href && (
+            <a href={data.secondary.href} className="text-sm px-3 py-1 rounded-full border border-white/60 hover:bg-white/10">
+              {data.secondary.label || "More"}
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}

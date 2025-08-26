@@ -1,0 +1,26 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#0B3A4B"/>
+      <stop offset="1" stop-color="#0E4D64"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+  <!-- Shirt -->
+  <g transform="translate(400,220)">
+    <rect x="0" y="0" rx="40" ry="40" width="800" height="760" fill="#0F2430" opacity="0.25"/>
+    <g filter="url(#shadow)">
+      <path d="M140,120c95-55,155-80,210-80c55,0,115,25,210,80l60,40v520c0,44-36,80-80,80H160c-44,0-80-36-80-80V160l60-40z"
+            fill="#102A3A"/>
+      <!-- collar -->
+      <path d="M430,170a90,90 0 0 1 140,0v30a90,90 0 0 1 -140,0z" fill="#0C2130"/>
+    </g>
+    <!-- lake graphic -->
+    <g transform="translate(160,420)">
+      <path d="M0,40 Q60,10 120,40 T240,40 T360,40 T480,40 T600,40" fill="none" stroke="#DABF9F" stroke-width="6" stroke-linecap="round" opacity=".9"/>
+      <path d="M0,80 Q60,50 120,80 T240,80 T360,80 T480,80 T600,80" fill="none" stroke="#DABF9F" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+      <path d="M0,120 Q60,90 120,120 T240,120 T360,120 T480,120 T600,120" fill="none" stroke="#DABF9F" stroke-width="6" stroke-linecap="round" opacity=".5"/>
+    </g>
+    <text x="400" y="620" text-anchor="middle" font-family="Segoe UI, Inter, system-ui" font-size="44" fill="#DABF9F" opacity=".9">Lake Tee</text>
+  </g>
+</svg>

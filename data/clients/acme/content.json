@@ -1,0 +1,75 @@
+﻿{
+    "brand":  {
+                  "name":  "Holland Entertainment",
+                  "logo":  "/logos/acme.svg",
+                  "legal":  "Holland Entertainment"
+              },
+    "theme":  {
+                  "primary":  "#2563eb",
+                  "accent":  "#14b8a6",
+                  "muted":  "#f1f5f9"
+              },
+    "nav":  [
+                {
+                    "label":  "Home",
+                    "href":  "#home"
+                },
+                {
+                    "label":  "Services",
+                    "href":  "#services"
+                },
+                {
+                    "label":  "Contact",
+                    "href":  "#contact"
+                }
+            ],
+    "hero":  {
+                 "headline":  "Reliable Plumbing. 24/7 Emergency Service.",
+                 "sub":  "Local, licensed, and guaranteed workmanship for homes \u0026 businesses.",
+                 "ctaLabel":  "Get a quote",
+                 "highlights":  [
+                                    {
+                                        "title":  "Same-day repairs",
+                                        "desc":  "Fast dispatch across town."
+                                    },
+                                    {
+                                        "title":  "Upfront pricing",
+                                        "desc":  "No surprises—ever."
+                                    },
+                                    {
+                                        "title":  "Licensed \u0026 insured",
+                                        "desc":  "Peace of mind included."
+                                    },
+                                    {
+                                        "title":  "5★ reviews",
+                                        "desc":  "Customers love our work."
+                                    }
+                                ]
+             },
+    "services":  [
+                     {
+                         "title":  "Leak Detection",
+                         "desc":  "Thermal imaging \u0026 acoustic tracing to find hidden leaks."
+                     },
+                     {
+                         "title":  "Drain Cleaning",
+                         "desc":  "Hydrojetting and safe chemical treatments."
+                     },
+                     {
+                         "title":  "Water Heaters",
+                         "desc":  "Installations, repairs, and annual maintenance.",
+                         "price":  "$299+"
+                     }
+                 ],
+    "cta":  {
+                "title":  "Need a plumber today?",
+                "desc":  "We can usually be there within 2 hours.",
+                "ctaLabel":  "Call now"
+            },
+    "contact":  {
+                    "phone":  "(555) 201-0001",
+                    "email":  "hello@acmeplumbing.example",
+                    "address":  "123 Main St, Hometown",
+                    "formspreeId":  ""
+                }
+}

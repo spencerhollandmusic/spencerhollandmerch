@@ -1,0 +1,130 @@
+﻿{
+    "brand":  {
+                  "name":  "Holland Entertainment",
+                  "logo":  "",
+                  "legal":  "Holland Entertainment"
+              },
+    "theme":  {
+                  "primary":  "#0E4D64",
+                  "accent":  "#DABF9F",
+                  "muted":  "#FAF7F1"
+              },
+    "nav":  [
+                {
+                    "label":  "Home",
+                    "href":  "#home"
+                },
+                {
+                    "label":  "Merch",
+                    "href":  "#merch"
+                }
+            ],
+    "hero":  {
+                 "headline":  "Spencer Holland",
+                 "sub":  "New single out now — listen everywhere.",
+                 "image":  "/artist.png",
+                 "overlay":  80,
+                 "fullscreen":  true,
+                 "parallax":  true,
+                 "links":  [
+                               {
+                                   "label":  "Spotify",
+                                   "href":  "https://open.spotify.com/artist/4dUAs3uoXz2swQ2DcMLIQ1?si=rEF6n41bRcmbowlhfg4oqng"
+                               },
+                               {
+                                   "label":  "Apple Music",
+                                   "href":  "https://music.apple.com/us/artist/spencer-holland/1766686134"
+                               },
+                               {
+                                   "label":  "Amazon Music",
+                                   "href":  "https://music.amazon.com/artists/B09JQ04G7Q7/spencer-holland?marketplaceId=ATVPDKIKX0DER\u0026musicTerritory=US\u0026ref=dm_sh_qIjaEazvYeTnCfCU8AyQ7jHUz"
+                               },
+                               {
+                                   "label":  "YouTube",
+                                   "href":  "https://youtube.com/@spencerhollandz?si=tKtAySnh-ib2HH8y"
+                               },
+                               {
+                                   "label":  "Instagram",
+                                   "href":  "https://www.instagram.com/spencerhollandz/"
+                               },
+                               {
+                                   "label":  "TikTok",
+                                   "href":  "https://www.tiktok.com/@itspencerholland?is_from_webapp=1\u0026sender_device=pc"
+                               }
+                           ],
+                 "video":  "/hero.mp4"
+             },
+    "services":  [
+
+                 ],
+    "cta":  null,
+    "merch":  {
+                  "title":  "Merch",
+                  "note":  "Shipped in one week",
+                  "storeUrl":  "",
+                  "items":  [
+                                {
+                                    "id":  "lake-tee",
+                                    "title":  "Lake Tee",
+                                    "price":  25,
+                                    "desc":  "Heavyweight cotton. Relaxed fit.",
+                                    "colors":  [
+                                                   "#0E4D64",
+                                                   "#DABF9F",
+                                                   "#ffffff"
+                                               ],
+                                    "sizes":  [
+                                                  "S",
+                                                  "M",
+                                                  "L",
+                                                  "XL"
+                                              ],
+                                    "image":  "/merch/lake-tee.svg",
+                                    "badge":  "New"
+                                },
+                                {
+                                    "id":  "dock-hoodie",
+                                    "title":  "Dock Hoodie",
+                                    "price":  45,
+                                    "desc":  "Fleece-lined. Unisex.",
+                                    "colors":  [
+                                                   "#0E4D64",
+                                                   "#1f2937"
+                                               ],
+                                    "sizes":  [
+                                                  "S",
+                                                  "M",
+                                                  "L",
+                                                  "XL",
+                                                  "2XL"
+                                              ],
+                                    "image":  "/merch/dock-hoodie.svg"
+                                },
+                                {
+                                    "id":  "stickers",
+                                    "title":  "Sticker Pack",
+                                    "price":  8,
+                                    "desc":  "5 glossy stickers.",
+                                    "colors":  [
+
+                                               ],
+                                    "sizes":  [
+
+                                              ],
+                                    "image":  "/merch/stickers.svg"
+                                }
+                            ]
+              },
+    "contact":  null,
+    "announcement":  {
+                         "message":  "New single out now — listen everywhere",
+                         "primary":  {
+                                         "label":  "Listen",
+                                         "href":  "https://open.spotify.com/artist/4dUAs3uoXz2swQ2DcMLIQ1?si=rEF6n41bRcmbowlhfg4oqng"
+                                     },
+                         "secondary":  {
+                                           "label":  "Tour",
+                                           "href":  "#merch"
+                                       }
+                     }
+}

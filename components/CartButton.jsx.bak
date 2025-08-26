@@ -1,0 +1,20 @@
+﻿"use client";
+import { useCart } from "./CartContext";
+
+export function CartButton() {
+  const { count, openDrawer } = useCart();
+  return (
+    <button
+      onClick={openDrawer}
+      className="relative px-3 py-2 rounded-xl bg-white/20 text-white hover:opacity-80"
+      title="Open cart"
+    >
+      Cart
+      {count > 0 && (
+        <span className="absolute -top-1 -right-1 text-xs bg-[var(--color-accent)] text-gray-900 rounded-full px-2 py-0.5">
+          {count}
+        </span>
+      )}
+    </button>
+  );
+}

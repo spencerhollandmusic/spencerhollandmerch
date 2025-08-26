@@ -1,0 +1,75 @@
+﻿{
+    "brand":  {
+                  "name":  "Holland Entertainment",
+                  "logo":  "/logos/greenleaf.svg",
+                  "legal":  "Holland Entertainment"
+              },
+    "theme":  {
+                  "primary":  "#10b981",
+                  "accent":  "#0ea5e9",
+                  "muted":  "#ecfdf5"
+              },
+    "nav":  [
+                {
+                    "label":  "Home",
+                    "href":  "#home"
+                },
+                {
+                    "label":  "Services",
+                    "href":  "#services"
+                },
+                {
+                    "label":  "Contact",
+                    "href":  "#contact"
+                }
+            ],
+    "hero":  {
+                 "headline":  "Business Law, Simplified.",
+                 "sub":  "Flat-fee contracts, entity formation, and on-demand counsel.",
+                 "ctaLabel":  "Schedule consult",
+                 "highlights":  [
+                                    {
+                                        "title":  "Flat fees",
+                                        "desc":  "Transparent pricing upfront."
+                                    },
+                                    {
+                                        "title":  "Startup-savvy",
+                                        "desc":  "We speak cap tables."
+                                    },
+                                    {
+                                        "title":  "Fast turnaround",
+                                        "desc":  "Docs in days, not weeks."
+                                    },
+                                    {
+                                        "title":  "General counsel",
+                                        "desc":  "Flexible retainers."
+                                    }
+                                ]
+             },
+    "services":  [
+                     {
+                         "title":  "LLC \u0026 Corp Setup",
+                         "desc":  "Formation, bylaws, and compliance."
+                     },
+                     {
+                         "title":  "Contracts",
+                         "desc":  "MSAs, NDAs, vendor agreements.",
+                         "price":  "$499+"
+                     },
+                     {
+                         "title":  "Trademarks",
+                         "desc":  "Search, filings, and responses."
+                     }
+                 ],
+    "cta":  {
+                "title":  "Protect your business",
+                "desc":  "Get proactive legal support.",
+                "ctaLabel":  "Talk to a lawyer"
+            },
+    "contact":  {
+                    "phone":  "(555) 201-3333",
+                    "email":  "hello@greenleaflaw.example",
+                    "address":  "75 Market St, Hometown",
+                    "formspreeId":  ""
+                }
+}

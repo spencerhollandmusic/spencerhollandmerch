@@ -1,0 +1,34 @@
+﻿"use client";
+
+import { useEffect, useState } from "react";
+import { CartButton } from "./CartButton";
+
+/**
+ * Cart floats at top-right and eases downward as the user scrolls.
+ * Clamp keeps it from drifting too far.
+ */
+export function Nav() {
+  const [top, setTop] = useState(16); // initial offset (px)
+
+  useEffect(() => {
+    const onScroll = () => {
+      const y = window.scrollY || 0;
+      // ease down ~25% of scroll, clamped between 16px and 120px
+      const t = Math.max(16, Math.min(120, 16 + Math.round(y * 0.25)));
+      setTop(t);
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  return (
+    <div
+      className="fixed right-4 z-50 transition-all duration-200 ease-out"
+      style={{ top }}
+      aria-label="Cart"
+    >
+      <CartButton />
+    </div>
+  );
+}

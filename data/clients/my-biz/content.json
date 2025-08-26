@@ -1,0 +1,77 @@
+﻿{
+    "brand":  {
+                  "name":  "Holland Entertainment",
+                  "logo":  "/logos/acme.svg",
+                  "legal":  "Holland Entertainment"
+              },
+    "theme":  {
+                  "primary":  "#7c3aed",
+                  "accent":  "#06b6d4",
+                  "muted":  "#f3f4f6"
+              },
+    "nav":  [
+                {
+                    "label":  "Home",
+                    "href":  "#home"
+                },
+                {
+                    "label":  "Services",
+                    "href":  "#services"
+                },
+                {
+                    "label":  "Contact",
+                    "href":  "#contact"
+                }
+            ],
+    "hero":  {
+                 "headline":  "My Biz: We do awesome things.",
+                 "sub":  "Replace this with your elevator pitch.",
+                 "ctaLabel":  "Get started",
+                 "highlights":  [
+                                    {
+                                        "title":  "Quality",
+                                        "desc":  "Top-notch work."
+                                    },
+                                    {
+                                        "title":  "Speed",
+                                        "desc":  "Fast turnaround."
+                                    },
+                                    {
+                                        "title":  "Support",
+                                        "desc":  "Weâ€™re here to help."
+                                    },
+                                    {
+                                        "title":  "Value",
+                                        "desc":  "Fair pricing."
+                                    }
+                                ]
+             },
+    "services":  [
+                     {
+                         "title":  "Service One",
+                         "desc":  "Describe the value.",
+                         "price":  ""
+                     },
+                     {
+                         "title":  "Service Two",
+                         "desc":  "Describe the value.",
+                         "price":  ""
+                     },
+                     {
+                         "title":  "Service Three",
+                         "desc":  "Describe the value.",
+                         "price":  ""
+                     }
+                 ],
+    "cta":  {
+                "title":  "Ready to begin?",
+                "desc":  "Weâ€™d love to work with you.",
+                "ctaLabel":  "Contact us"
+            },
+    "contact":  {
+                    "phone":  "",
+                    "email":  "",
+                    "address":  "",
+                    "formspreeId":  ""
+                }
+}
