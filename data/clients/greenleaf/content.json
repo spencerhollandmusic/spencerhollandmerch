@@ -44,7 +44,9 @@
                                         "title":  "General counsel",
                                         "desc":  "Flexible retainers."
                                     }
-                                ]
+                                ],
+                 "fullscreen":  true,
+                 "overlay":  80
              },
     "services":  [
                      {

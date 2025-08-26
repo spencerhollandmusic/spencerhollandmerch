@@ -44,7 +44,9 @@
                                         "title":  "Value",
                                         "desc":  "Fair pricing."
                                     }
-                                ]
+                                ],
+                 "fullscreen":  true,
+                 "overlay":  80
              },
     "services":  [
                      {

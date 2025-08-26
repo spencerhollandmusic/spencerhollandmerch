@@ -51,8 +51,7 @@
                                    "label":  "TikTok",
                                    "href":  "https://www.tiktok.com/@itspencerholland?is_from_webapp=1\u0026sender_device=pc"
                                }
-                           ],
-                 "video":  "/hero.mp4"
+                           ]
              },
     "services":  [
 
@@ -128,5 +127,3 @@
                                        }
                      }
 }
-
-

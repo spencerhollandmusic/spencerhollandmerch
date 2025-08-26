@@ -44,7 +44,9 @@
                                         "title":  "Open Saturdays",
                                         "desc":  "Convenient hours."
                                     }
-                                ]
+                                ],
+                 "fullscreen":  true,
+                 "overlay":  80
              },
     "services":  [
                      {
