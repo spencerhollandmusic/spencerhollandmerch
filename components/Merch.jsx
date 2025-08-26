@@ -1,12 +1,17 @@
 ﻿"use client";
 
 import { useState } from "react";
-import ProductModal from "./ProductModal"; // <-- default export
+import ProductModal from "./ProductModal"; // default export
 
 function MerchComponent({ data }) {
-  if (!data) return null;
-  const items = data.items || [];
+  // ✅ Call hooks unconditionally at the top
   const [active, setActive] = useState(null);
+  const items = data?.items ?? [];
+
+  // You may still render nothing, but do it AFTER hooks are declared
+  if (!data || items.length === 0) {
+    return null;
+  }
 
   return (
     <section id="merch" className="relative py-20 text-white">
@@ -38,6 +43,7 @@ function MerchComponent({ data }) {
               {/* image */}
               <div className="relative aspect-[4/3] bg-white/[0.03]">
                 {p.image ? (
+                  // eslint-disable-next-line @next/next/no-img-element
                   <img
                     src={p.image}
                     alt={p.alt || p.title || "Merch item"}
@@ -100,7 +106,6 @@ function MerchComponent({ data }) {
           ))}
         </div>
 
-        {/* full store CTA (if provided) */}
         {data.storeUrl && (
           <div className="text-center mt-10">
             <a
@@ -116,10 +121,7 @@ function MerchComponent({ data }) {
       </div>
 
       {active && (
-        <ProductModal
-          product={active}
-          onClose={() => setActive(null)}
-        />
+        <ProductModal product={active} onClose={() => setActive(null)} />
       )}
     </section>
   );
